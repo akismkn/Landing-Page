@@ -46,7 +46,7 @@ body {
     font-weight: bold;
 }
 
-ul ,p {
+ul {
     font-size: 18px;
     color: white;
 }
@@ -79,4 +79,40 @@ button {
     font-size: 20px;
     color: white;
     border: none;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-header {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.gallery {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+
+.image-subtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-subtext img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: solid red 3px;
+}
+
+.image-subtext p {
+    width: 120px;
+    text-align: center;
 }
