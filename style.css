@@ -37,9 +37,6 @@ body {
     width: 50%;
 }
 
-
-
-
 .logo {
     font-size: 24px;
     color: white;
@@ -71,7 +68,7 @@ ul {
     height: 220px;
 }
 
-button {
+.header-button {
     background-color: #3882f6;
     border-radius: 7px;
     width: 120px;
@@ -80,6 +77,7 @@ button {
     color: white;
     border: none;
 }
+
 
 
 
@@ -125,15 +123,22 @@ button {
 
 
 
+
+
+
 .third {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 10px;
 }
 
 .quote {
     font-size: 35px;
+    font-style: italic;
     color: black;
     margin-left: auto;
     font-weight: 500;
@@ -143,5 +148,41 @@ button {
 .quoter {
     text-align: right;
     padding-right: 50px;
-    margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+.fourth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 140px;
+    margin: 100px 200px;
+    padding: 0 100px;
+}
+
+.fourth-header {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.fourth-subtext {
+    color: white;
+}
+
+.fourth-button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 120px;
+    height: 37px;
+    font-size: 20px;
+    color: white;
+    border-color: white;
 }
