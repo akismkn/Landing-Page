@@ -186,3 +186,19 @@ ul {
     color: white;
     border-color: white;
 }
+
+
+
+
+.footer {
+    background-color: #1f2937;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-copyright {
+    color: white;
+    font-size: 20px;
+}
