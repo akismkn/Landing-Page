@@ -81,6 +81,11 @@ button {
     border: none;
 }
 
+
+
+
+
+
 .second {
     display: flex;
     flex-direction: column;
@@ -115,4 +120,28 @@ button {
 .image-subtext p {
     width: 120px;
     text-align: center;
+}
+
+
+
+
+.third {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 35px;
+    color: black;
+    margin-left: auto;
+    font-weight: 500;
+    margin-top: 200px;
+}
+
+.quoter {
+    text-align: right;
+    padding-right: 50px;
+    margin-bottom: 200px;
 }
